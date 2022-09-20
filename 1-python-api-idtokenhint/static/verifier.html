@@ -44,7 +44,10 @@
                         <div class="vc-card">
                             <div class="vc-card-row">
                                 <img src=CompuComLogo.png height=50px; />
-                                <p style="font-size: 20px;">John Doe</p>
+                                <p style="font-size: 20px;">Verified Employee</p>
+                            </div>
+                            <div class="vc-card-row-1">
+                             <p style="font-size: 20px;">John Doe</p>
                             </div>
                             <div class="vc-card-row">
                                 <p style="text-align: start; font-size: 18px; transform: translateY(90%); object-fit: cover;">CompuCom</p>
@@ -109,7 +112,7 @@
                                             document.getElementById('message').innerHTML = respMsg.message;
                                             // document.getElementById('payload').innerHTML = "Payload: " + JSON.stringify(respMsg.payload);
                                             document.getElementById('vc-card-container').style.display = "block";
-                                            document.getElementById('subject').innerHTML = "✅ John Doe is a verified employee of CompuCom.";
+                                            document.getElementById('subject').innerHTML = "✅ Target has successfully verified John Doe as an employee of CompuCom.";
                                             clearInterval(checkStatus);
                                         }
                                     }
