@@ -93,7 +93,11 @@ padding: 15px 30px;
 display: flex;
 justify-content: space-between;
 }
-
+.vc-card-row-1 {
+  display: flex;
+  padding-left: 300pt;
+  justify-content: space-between;
+  }
 .button {
   background-color: #CC0000;
   border: none;
